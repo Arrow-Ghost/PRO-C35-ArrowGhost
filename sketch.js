@@ -1,6 +1,6 @@
 var balloon,balloonImage1,balloonImage2;
 // create database and position variable here
-var database,height;
+var database,height,ref;
 function preload(){
    bg =loadImage("cityImage.png");
    balloonImage1=loadAnimation("hotairballoon1.png");
